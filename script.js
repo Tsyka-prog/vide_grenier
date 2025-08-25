@@ -9,6 +9,7 @@
       // Envoie les données à la Web App
       fetch("https://script.google.com/macros/s/AKfycbwX3PPyl5BqsjLLlk7jnrCdcZTUCD9s2GdLJ_bGJeIkqGkptahpZ7WrDm8ufEABhWBbYg/exec", {
         method: "POST",
+        mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
